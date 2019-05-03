@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nirewen/meme-gen.git"
+    "url": "git+https://github.com/nirewen/shitpost-generator.git"
   },
   "keywords": [
     "meme",
@@ -19,9 +19,9 @@
   "author": "nirewen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nirewen/meme-gen/issues"
+    "url": "https://github.com/nirewen/shitpost-generator/issues"
   },
-  "homepage": "https://github.com/nirewen/meme-gen#readme",
+  "homepage": "https://github.com/nirewen/shitpost-generator#readme",
   "dependencies": {
     "canvas": "^2.4.1"
   }

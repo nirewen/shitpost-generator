@@ -7,7 +7,7 @@ A Node.JS module to create images with overlays
 # Example
 `npm run example` or `node example`
 
-Check output in [`./example/out/result.png`](https://github.com/nirewen/meme-gen/blob/master/example/out/result.png)
+Check output in [`./example/out/result.png`](https://github.com/nirewen/shitpost-generator/blob/master/example/out/result.png)
 
 # Points
 
