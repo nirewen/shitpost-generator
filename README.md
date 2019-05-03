@@ -2,7 +2,7 @@
 A Node.JS module to create images with overlays
 
 # Installation
-`npm install meme-gen`
+`npm install @nirewen/meme-gen`
 
 # Example
 `npm run example` or `node example`

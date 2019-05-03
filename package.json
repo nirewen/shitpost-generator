@@ -1,5 +1,5 @@
 {
-  "name": "meme-gen",
+  "name": "@nirewen/meme-gen",
   "version": "1.0.0",
   "description": "A Node.JS module to create images with overlays",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/nirewen/meme-gen.git"
   },
-  "keywords": [],
+  "keywords": ["meme", "generator", "overlay", "shitpostbot"],
   "author": "nirewen",
   "license": "MIT",
   "bugs": {
