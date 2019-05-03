@@ -1,5 +1,5 @@
 {
-  "name": "@nirewen/meme-gen",
+  "name": "shitpost-generator",
   "version": "1.0.0",
   "description": "A Node.JS module to create images with overlays",
   "main": "index.js",

@@ -1,8 +1,8 @@
-# meme-gen
+# shitpost-generator
 A Node.JS module to create images with overlays
 
 # Installation
-`npm install @nirewen/meme-gen`
+`npm install shitpost-generator`
 
 # Example
 `npm run example` or `node example`
