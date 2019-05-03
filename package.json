@@ -1,0 +1,23 @@
+{
+  "name": "meme-gen",
+  "version": "1.0.0",
+  "description": "A Node.JS module to create images with overlays",
+  "main": "index.js",
+  "scripts": {
+    "example": "node example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirewen/meme-gen.git"
+  },
+  "keywords": [],
+  "author": "nirewen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nirewen/meme-gen/issues"
+  },
+  "homepage": "https://github.com/nirewen/meme-gen#readme",
+  "dependencies": {
+    "canvas": "^2.4.1"
+  }
+}
