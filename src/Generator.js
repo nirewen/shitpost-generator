@@ -1,4 +1,5 @@
 const Canvas = require('canvas')
+const Box = require('./Box')
 const Point = require('./util/Point')
 const TextCoord = require('./util/TextCoord')
 const Triangle = require('./util/Triangle')
@@ -6,7 +7,9 @@ const Triangle = require('./util/Triangle')
 class Generator {
     constructor ({ background, boxes, overlay, color = 'transparent' }) {
         this.background = background
-        this.boxes = boxes
+        this.boxes = Array.isArray(boxes) 
+            ? boxes.map(b => new Box(b.points)) 
+            : boxes
 
         if (overlay)
             this.overlay = overlay
@@ -25,6 +28,10 @@ class Generator {
         let { width, height } = this.background
 
         this.canvas = Canvas.createCanvas(width, height)
+
+        this.boxes.forEach(b => b.parsePoint({ width, height }))
+        
+        console.log(width, width / 2, this.boxes[0].points)
     }
 
     get ctx () {
